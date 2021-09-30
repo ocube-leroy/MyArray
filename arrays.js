@@ -1,13 +1,13 @@
 
-    function colorsArray(myArray){
+    function arrayToAccept(_parameter){
         const myArray = ["yellow", "blue", "purple", "lilac", "peach", "red", "black"];
-        const colorsArrayLength = myArray.length();
-        const middleArrayColor = ((myArray.length-1)/2);
-    const middleArrayIndex = myArray[index];
+        const lengthOfArray = myArray.length;
+        const middleArrayIndex = ((myArray.length-1)/2);
+        const middleArray = myArray[middleArrayIndex];
 
-    console.log(colorsArrayLength);
-    console.log(middleArrayColor);
+    console.log(lengthOfArray);
     console.log(middleArrayIndex);
+    console.log(middleArray);
 }
     
-    colorsArray("yellow", "blue", "purple", "lilac", "peach", "red", "black");
+    arrayToAccept("yellow", "blue", "purple", "lilac", "peach", "red", "black");
